@@ -1,0 +1,57 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://thumbs.dreamstime.com/z/booking-online-flights-travel-ticket-hotel-reservation-mobile-app-world-background-vector-illustration-187210035.jpg'); /* Replace with your actual image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.lContainer {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text to left */
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Input styling */
+.lInput {
+    width: 100%;
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.lInput:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+/* Button styling */
+.lButton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lButton:hover {
+    background-color: #0056b3;
+}
+
+/* Error message styling */
+.lError {
+    color: #ff0000;
+    font-size: 14px;
+}
